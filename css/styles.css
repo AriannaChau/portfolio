@@ -1,6 +1,10 @@
 body {
-  background-color: #EEEEEE;
+  background-color: #E7ECFA;
   font-family: avenir
+}
+
+.well {
+  background: rgb(206,215,243)
 }
 
 img {
@@ -26,34 +30,13 @@ ul.img-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 ul.img-list li {
   display: inline-block;
   height: 100%;
-  margin: 0 1em 1em 0;
   position: relative;
   width: 100%;
-}
-
-span.text-content {
-  background: rgba(0,0,0,0.5);
-  color: white;
-  cursor: pointer;
-  display: table;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-span.text-content span {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  color: black;
 }
 
 ul.img-list li:hover span.text-content {
@@ -61,18 +44,17 @@ ul.img-list li:hover span.text-content {
 }
 
 span.text-content {
-  background: rgba(238,238,238,0.5);
-  color: white;
-  cursor: pointer;
+  background: rgba(206,215,243,0.8);
+  color: black;
   display: table;
-  height: 100%;
+  height: 335px;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
   opacity: 0;
-  -webkit-transition: opacity 500ms;
-  -moz-transition: opacity 500ms;
-  -o-transition: opacity 500ms;
-  transition: opacity 500ms;
+  -webkit-transition: opacity 1000ms;
+  -moz-transition: opacity 1000ms;
+  -o-transition: opacity 1000ms;
+  transition: opacity 1000ms;
 }
