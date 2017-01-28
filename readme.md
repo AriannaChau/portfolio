@@ -16,7 +16,7 @@ My first portfolio gives the visitor a little bit of information about myself, i
 
 ## Link to site
 
-*link when I get gh pages set up*
+https://ariannachau.github.io/portfolio/
 
 ## Support and contact details
 
