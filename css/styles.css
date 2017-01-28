@@ -4,7 +4,21 @@ body {
 }
 
 .well {
-  background: rgb(206,215,243)
+  background: rgb(206,215,243);
+  border: solid;
+  border-width: 2px;
+  border-color: #A8B4D9;
+
+}
+
+h2 {
+  font-family: above demo;
+  font-weight: bold;
+}
+
+h4 {
+  font-family: above demo;
+  font-weight: bold;
 }
 
 img {
@@ -20,10 +34,14 @@ img {
 .intro {
   float: right;
   font-size: 14px;
+  font-family: avenir;
+  font-weight: normal;
 }
 
 #projects {
-  padding-bottom: 20px;
+  font-family: avenir;
+  padding-bottom: 10px;
+  font-size: 12px;
 }
 
 ul.img-list {
